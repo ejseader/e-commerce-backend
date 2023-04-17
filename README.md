@@ -3,8 +3,8 @@
 ## Table of Contents
 ---
 ### - [Description](#description)
-### - [Screencaps](#screencap)
-### - [Walkthrough Video](#walkthrough)
+### - [Screencaps](#screencaps)
+### - [Walkthroughs](#walkthroughs)
 ### - [Installation and Usage](#installation)
 ### - [License](#license)
 ### - [Contributing](#contributing)
@@ -14,7 +14,7 @@
 ---
 ### The E-Commerce Back End App allows users to test CRUD functionality of a seeded e-commerce database using the Insomnia API client. <br><br>
 
-## Screencap
+## Screencaps
 ---
 ![Screencap 1 of E-Commerce Back End](/images/screenshot1.png)
 ![Screencap 2 of E-Commerce Back End](/images/screenshot2.png)
@@ -23,11 +23,12 @@
 ![Screencap 5 of E-Commerce Back End](/images/screenshot5.png)
 ![Screencap 6 of E-Commerce Back End](/images/screenshot6.png)<br><br>
 
-## Walkthrough Video
+## Walkthroughs
 ---
+[Walkthrough of E-Commerce Back End Database Creation, Seeding, and Running of Server.js](https://drive.google.com/file/d/1DsYGq9SpsW_Li3GdaQmaHQsM7oCaivGj/view)<br>
 [Walkthrough of E-Commerce Back End Insomnia Session](https://drive.google.com/file/d/1UWKyu6Ou9Pzqod5stuS_CzcP4PpOGC-l/view)<br><br>
 
-## Installation and Usage
+## Installation
 ---
 ### The app is built in the [Node.js](https://nodejs.org/en/download/) environment, with the npm packages [Express](https://www.npmjs.com/package/express), [Sequelize](https://www.npmjs.com/package/sequelize), [MySQL2](https://www.npmjs.com/package/mysql2), and [DotEnv](https://www.npmjs.com/package/dotenv), and [Nodemon](https://www.npmjs.com/package/nodemon). For testing, please install the [Insomnia API client](https://insomnia.rest/download). 
 

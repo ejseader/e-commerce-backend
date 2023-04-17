@@ -45,13 +45,12 @@ router.post('/', async (req, res) => {
 
 router.put('/:id', async (req, res) => {
   // update a category by its `id` value
-  const updateCat = await Category.update(req.body, {
+  await Category.update(req.body, {
     where: {
       id: req.params.id,
     },
   })
-  await Category.findByPk(req.params.id);
-  await console.log('Category updated successfully');
+  res.send('Category updated successfully');
 });
 
 router.delete('/:id', async (req, res) => {
